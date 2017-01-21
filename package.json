@@ -1,0 +1,21 @@
+{
+  "name": "notify-logger",
+  "version": "0.1.0",
+  "description": "Logger for Notify App",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && mocha"
+  },
+  "author": "Luca Tabone <taboneluca3@gmail.com>",
+  "license": "ISC",
+  "standard": {
+    "env": [
+      "mocha"
+    ]
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.7",
+    "standard": "^8.6.0"
+  }
+}
